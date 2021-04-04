@@ -4,8 +4,8 @@ import styles from '../../styles/Home.module.css'
 const bla = 'asldkj'
 
 type Props = {
-  title: 'michel'
-}
+  title: 'michel';
+};
 
 export default function Home({ title = 'React avançado' }) {
   return (
