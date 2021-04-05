@@ -1,34 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## The purpose of this repository is to create a base template with everything you need for a complete front end project.
 
-## Getting Started
+### Getting Started
 
-First, run the development server:
+Template for future projects
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+I made this model using:
+* NextJs
+  * ReactJs
+  * Styled-components
+* Jest
+* Lint
+* Prettier
+* Storybook
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### The profiles for running the project
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+yarn or npm run
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+````
+"scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint src --max-warnings=0",
+    "test": "jest",
+    "test:watch": "yarn test --watch",
+    "storybook": "start-storybook -s ./public -p 6006",
+    "build-storybook": "build-storybook"
+  }
+````
+### Configured Base Url
+File: tsconfig.json
+````
+"baseUrl": "src"
+````
 
-## Learn More
+### Prettier
+The pattern to be followed in the code
+File: .prettierrc
 
-To learn more about Next.js, take a look at the following resources:
+````
+{
+  "trailingComma": "none", //Print trailing commas wherever possible when multi-line
+  "semi": false, //Print semicolons at the ends of statements
+  "singleQuote": true //Use single quotes instead of double quotes
+}
+````
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For more examples [Prettier](https://prettier.io/docs/en/options.html)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for sharing this content and if you have any question, send me an e-mail [michel.ribeiro@michelribeiro.com.br](michel.ribeiro@michelribeiro.com.br)
