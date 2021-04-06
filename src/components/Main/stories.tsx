@@ -3,11 +3,11 @@ import Main from '.'
 
 export default {
   title: 'Main',
-  component: Main,
-  args: {
-    title: 'React Avançado',
-    description: 'Typescript, ReactJs, NextJs, e StyledComponent and more...'
-  }
+  component: Main
 } as Meta
 
 export const Home: Story = (args) => <Main {...args} />
+// Home.args = {
+//   title: 'Sobrescrevendo o valor do title',
+//   description: 'Sobrescrevendo o description'
+// }
