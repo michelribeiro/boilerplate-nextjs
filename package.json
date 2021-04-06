@@ -10,7 +10,7 @@
     "test": "jest --updateSnapshot",
     "test:watch": "yarn test --watch",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook",
+    "build-storybook": "build-storybook -s ./public",
     "dev:production": "NODE_ENV=production yarn build"
   },
   "lint-staged": {
