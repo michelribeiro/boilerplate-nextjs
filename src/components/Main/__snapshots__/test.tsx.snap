@@ -55,12 +55,12 @@ exports[`<Main /> should render the heading 1`] = `
   <h1
     class="c2"
   >
-    React avançado
+    React Avançado
   </h1>
   <h2
     class="c3"
   >
-    Michel Ribeiro...
+    TypeScript, ReactJS, NextJS e Styled Components
   </h2>
   <img
     alt="Seja um bom desenvolvedor"
