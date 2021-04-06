@@ -12,6 +12,7 @@ I made this model using:
 * Lint
 * Prettier
 * Storybook
+* PWA
 
 
 ### The profiles for running the project
